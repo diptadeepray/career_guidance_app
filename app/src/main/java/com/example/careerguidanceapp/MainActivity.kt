@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             educationLevel == "Undergraduate" && skills.contains("programming", ignoreCase = true) -> "Explore roles like Software Developer or Data Analyst."
             interests.contains("creativity", ignoreCase = true) -> "Graphic Design or Content Creation might be great for you."
             skills.contains("management", ignoreCase = true) -> "Look into Project Management or HR roles."
-            else -> "Research fields that align with your unique combination of skills and interests."
+            else -> "Consult an expert."
         }
     }
 }
